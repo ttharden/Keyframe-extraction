@@ -8,10 +8,12 @@ TvSum dataset contains 50 videos collected from YouTube, spanning across 10 dist
 To solve this problem, we propose a new dataset based on the TvSum dataset as a benchmark dataset for static video summarisation (keyframe-extraction)
 
 # Method
-1. We obtain the average of the video's importance ratings across all professionals as the basis for the video's score, and further based on this, we obtain the extremes of the video's score distribution, and we select the video frame corresponding to the midpoint of the extremes as our candidate benchmark video frame.
+1. We obtain the average of the video's importance ratings across all professionals as the basis for the video's score, and further based on this, we obtain the extremes of the video's score distribution, and we select the video frame corresponding to the midpoint of the extremes as our candidate benchmark video frame.The corresponding situation is shown below.![case](/images/pic.png)  
 
-2. To reduce the occurrence of multiple poles within the same shot but with similar image content, we further perform similarity-based de-redundancy within the shot.The final composition of our benchmark dataset.
-![case](/images/pic.png)  
+2. To reduce the occurrence of multiple poles within the same shot but with similar image content, we further perform similarity-based de-redundancy within the shot.
+
+3. On the basis of de-redundancy, we are finally performing manual selection, when there is a low informative image in the candidate frame, we select the frame that expresses the best information in its vicinity to replace it.
+
 # Case
 ![case](/images/case.png)  
 # Reference
