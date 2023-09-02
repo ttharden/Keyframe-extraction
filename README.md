@@ -1,7 +1,12 @@
 # Description
 A dataset for keyframe extraction
 # Background
-We use the video summary public benchmark dataset TvSum as a basis, the TvSum dataset is composed of 10 categories of videos, each with a shot-level importance score by 20 professionals, and we select 2 videos in each category for a total of 20 videos.
+In the field of generating static video summaries, there is a lack of a benchmark dataset to judge the extraction quality of methods. Most authors are judged by human selection, which lacks objectivity. In the field of dynamic video summarisation, there are various datasets to choose from, among which TvSum is representative.
+  
+TvSum dataset contains 50 videos collected from YouTube, spanning across 10 distinct categories(e.g., changing Vehicle Tire (VT), getting Vehicle Unstuck (VU), Grooming an Animal (GA)). Each video is annotated as follows: the video was chopped up into a set of 2 second-long shots and asked 20 users to rate how important each shot is, compared to other shots from the same video, on a scale from 1 (not important) to 5 (very important). 
+
+To solve this problem, we propose a new dataset based on the TvSum dataset as a benchmark dataset for static video summarisation (keyframe-extraction)
+
 # Method
 1. We obtain the average of the video's importance ratings across all professionals as the basis for the video's score, and further based on this, we obtain the extremes of the video's score distribution, and we select the video frame corresponding to the midpoint of the extremes as our candidate benchmark video frame.
 
