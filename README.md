@@ -11,7 +11,7 @@ To solve this problem, we propose a new dataset based on the TvSum dataset as a 
 1. We obtain the average of the video's importance ratings across all professionals as the basis for the video's score, and further based on this, we obtain the extremes of the video's score distribution, and we select the video frame corresponding to the midpoint of the extremes as our candidate benchmark video frame.
 
 2. To reduce the occurrence of multiple poles within the same shot but with similar image content, we further perform similarity-based de-redundancy within the shot.The final composition of our benchmark dataset.
-
+![case](/images/pic.png)  
 # Case
 ![case](/images/case.png)  
 # Reference
