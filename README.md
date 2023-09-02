@@ -8,7 +8,7 @@ We use the video summary public benchmark dataset TvSum as a basis, the TvSum da
 2. To reduce the occurrence of multiple poles within the same shot but with similar image content, we further perform similarity-based de-redundancy within the shot.The final composition of our benchmark dataset.
 
 # case
-![case](https://github.com/ttharden/Keyframe-extraction/images/case.png)  
+![case](/images/case.png)  
 # Reference
 Song, Yale, Jordi Vallmitjana, Amanda Stent, and Alejandro Jaimes. "TVSum: Summarizing web videos using titles." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 5179-5187. 2015.
 
