@@ -1,5 +1,5 @@
 # Description
-A benchmark dataset for keyframe extraction used in our paper "..."
+A benchmark dataset for keyframe extraction used in our paper "LARGE MODEL BASED SEQUENTIAL KEYFRAME EXTRACTION FOR VIDEO SUMMARIZATION"
 # Background
 In the field of generating static video summaries, there is a lack of a benchmark dataset to judge the extraction quality of methods. Most authors are judged by human selection, which lacks objectivity. In the field of dynamic video summarisation, there are various datasets to choose from, among which TvSum is representative.
   
