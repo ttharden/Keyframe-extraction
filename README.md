@@ -16,9 +16,8 @@ _Step 3:_ Based on the candidate frames after de-redundancy, we manually select 
 
 Finally, we process the 20 videos. We get the set of keyframes corresponding to the 20 videos.The video and keyframe information is shown below:  
 
-![case](/images/data_message.png)  
 <div align=center>
-<img src="https://github.com/ttharden/Keyframe-extraction/images/data_message.png" width="180" height="105"> width="180" height="105"/>
+<img src="https://github.com/ttharden/Keyframe-extraction/blob/main/images/data_message.png" > 
 </div>
 
 
