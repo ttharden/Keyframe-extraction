@@ -1,5 +1,10 @@
 # Description
-A benchmark dataset for keyframe extraction. The dataset folder [Dataset](/Dataset) consists of the source video folder [Videos](/Dataset/Videos) and the keyframe dataset folder [Keyframe](/Dataset/Keyframe). In these two folders, it consists of 20 videos and their corresponding keyframe images respectively.
+A benchmark dataset for keyframe extraction. The dataset folder [Dataset](/Dataset) consists of the source video folder [Videos](/Dataset/Videos) and the keyframe dataset folder [Keyframe](/Dataset/Keyframe). In these two folders, it consists of 20 videos and their corresponding keyframe images respectively.The project components are structured as follows：
+
+<div align=center>
+<img src="https://github.com/ttharden/Keyframe-extraction/blob/main/images/file.png" > 
+</div>
+
 # Background
 In the field of generating static video summaries, there is a lack of a benchmark dataset to judge the extraction quality of methods. Most authors are judged by human selection, which lacks objectivity. In the field of dynamic video summarisation, there are various datasets to choose from, among which TvSum is representative.
   
