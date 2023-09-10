@@ -14,7 +14,13 @@ _Step 2:_ To reduce the occurrence of multiple poles within the same shot but wi
 
 _Step 3:_ Based on the candidate frames after de-redundancy, we manually select them on the basis of this, the purpose of doing so is to avoid the centre frame as a low information frame, we manually select its surrounding frames with better performance to replace it, and finally we get our key frame sequence. The result of one of the videos is shown below:![case](/images/result.jpg)  
 
-Finally, we process the 20 videos. We get the set of keyframes corresponding to the 20 videos.The video and keyframe information is shown below：![case](/images/result.jpg)  
+Finally, we process the 20 videos. We get the set of keyframes corresponding to the 20 videos.The video and keyframe information is shown below:  
+
+![case](/images/data_message.png)  
+<div align=center>
+<img src="https://github.com/ttharden/Keyframe-extraction/images/data_message.png" width="180" height="105"> width="180" height="105"/>
+</div>
+
 
 # Reference
 Song, Yale, Jordi Vallmitjana, Amanda Stent, and Alejandro Jaimes. "TVSum: Summarizing web videos using titles." In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 5179-5187. 2015.
